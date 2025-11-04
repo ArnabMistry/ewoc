@@ -4,6 +4,7 @@ import * as React from "react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "motion/react"
 import { Menu, X } from "lucide-react"
+import {RainbowButton} from "@/components/ui/rainbow-button"
 
 const Navbar1 = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -58,14 +59,17 @@ const Navbar1 = () => {
           transition={{ duration: 0.3, delay: 0.2 }}
           whileHover={{ scale: 1.05 }}
         >
-          <a
+          <RainbowButton className="px-4 py-0.5 text-sm">Register</RainbowButton>
+
+
+          {/* <a
             href="https://forms.gle/your-google-form-link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-5 py-2 text-sm text-white bg-[#1b378b] rounded-full hover:bg-[#132a6b] transition-colors"
           >
             Register
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Mobile Menu Button */}
