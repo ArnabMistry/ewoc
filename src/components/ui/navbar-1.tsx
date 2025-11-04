@@ -10,11 +10,11 @@ const Navbar1 = () => {
   const [isOpen, setIsOpen] = useState(false)
   const toggleMenu = () => setIsOpen(!isOpen)
 
-  const navItems = ["Home", "Timeline", "Benefits", "Projects"]
+  const navItems = ["Home", "Timeline", "Rewards", "Projects"]
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center w-full py-6 px-4">
-      <div className="flex items-center justify-between px-6 py-3 bg-black bg-opacity-80 rounded-full shadow-lg w-full max-w-3xl relative z-10">
+      <div className="flex items-center justify-between px-6 py-3 bg-black bg-opacity-50 rounded-full shadow-lg w-full max-w-3xl relative z-10">
         {/* Logo */}
         <motion.div
           className="w-8 h-8 mr-6"
@@ -27,8 +27,8 @@ const Navbar1 = () => {
             <circle cx="16" cy="16" r="16" fill="url(#paint0_linear)" />
             <defs>
               <linearGradient id="paint0_linear" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#3aabe8ff" />
-                <stop offset="1" stopColor="#40abe5ff" />
+                <stop stopColor="#4fe3f7ff" />
+                <stop offset="1" stopColor="#1c5ed7ff" />
               </linearGradient>
             </defs>
           </svg>
