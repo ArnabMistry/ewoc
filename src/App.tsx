@@ -1,6 +1,6 @@
 import { Navbar1 } from '@/components/ui/navbar-1'
 import LightRays from '@/components/ui/LightRays'
-import { RainbowButtonDemo } from '@/components/ui/demo'
+// import { RainbowButtonDemo } from '@/components/ui/demo'
 
 function App() {
   return (
