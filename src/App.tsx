@@ -1,11 +1,13 @@
 import { Navbar1 } from '@/components/ui/navbar-1'
 import LightRays from '@/components/ui/LightRays'
+import SplashCursor from '@/components/SplashCursor'
 
 // import { RainbowButtonDemo } from '@/components/ui/demo'
 
 function App() {
   return (
     <div className="min-h-screen bg-black dark relative">
+      <SplashCursor />
       <LightRays
         raysOrigin="top-center"
         raysColor="#d4ededff"
